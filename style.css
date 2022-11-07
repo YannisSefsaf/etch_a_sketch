@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: 2px solid black;
+  margin-top: 150px;
+}
+
+.item {
+  border: 1px solid black;
+}
+
+option {
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  gap: 5em;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 45%;
+}
+
+.left-container > * {
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.right-container {
+  width: 55%;
+  justify-content: flex-start;
+}
+
+.grid-value {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 2em;
+}
+
+.div {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.reset {
+  display: block;
+  width: auto;
+  height: 50px;
+  align-self: flex-end;
+}

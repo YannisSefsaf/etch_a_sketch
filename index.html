@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div">
+      <button class="reset">RESET</button>
+    </div>
+    <div class="main-container">
+      <div class="left-container">
+        <div class="grid-container">
+          <span class="grid-value"></span>
+          <br />
+          <input
+            type="range"
+            id="range"
+            list="squares"
+            step="8"
+            min="16"
+            max="48"
+            value="16" />
+          <br />
+        </div>
+      </div>
+      <div class="right-container">
+        <datalist id="squares">
+          <option value="16" label="16" selected></option>
+          <option value="24" label="24"></option>
+          <option value="32" label="32"></option>
+          <option value="40" label="40"></option>
+          <option value="48" label="48"></option>
+        </datalist>
+        <div class="container"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
